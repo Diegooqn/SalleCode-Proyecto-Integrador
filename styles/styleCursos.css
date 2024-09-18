@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+   
+    background-color: #000000;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo {
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    margin-bottom: 4%;
+    color: white;
+    position: absolute;
+    left: 6%;
+    top: 10%;
+    width: 60%;
+}
+
+.textos__amarillo {
+    color: #ECAE3C;
+}
+
+.enlace-logo {
+    position: absolute;
+    padding: 2% 6%;
+}
+
+.logo {
+    width: 8%;
+}
+
+.menu {
+    position: absolute;
+    right: 5%;
+    padding: 2%;
+    display: flex;
+    gap: 70px;
+}
+
+.menu-link {
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-decoration: none;
+    position: relative;
+    color: #ECAE3C;
+}
+
+.menu-link::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-image: linear-gradient(to right, #ECAE3C, #eca625, #eca116);
+    transform: scaleX(0); /* Initially hidden */
+    transition: transform 0.5s ease-in-out;
+}
+
+.menu-link:hover::after {
+    transform: scaleX(1); /* Animate on hover */
+}
+
+.zona-cursos {
+    font-family: "Raleway", sans-serif;
+    position: absolute;
+    top: 35%;
+    left: 6%;
+    width: auto;
+    display: flex;
+    gap: 3%;
+}
+
+.curso__diseño {
+    background-color: white;
+    width: 20%;
+    height: 3%;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.5s;
+    
+}
+
+.curso__diseño:hover {
+    border: 2px solid white;
+    transform: scale(1.02);
+    box-shadow: 0 4px 18px 0 rgba(207, 148, 0, 0.947);
+}
+
+.curso__diseño:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.curso__py__imagen {
+    width: 100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.curso__js__imagen {
+    width: 100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.curso__html__imagen {
+    width: 100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.curso__titulos {
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 8%;
+    margin-bottom: 0;
+    color: #0B7077;
+}
+
+.curso__parrafos {
+    font-weight: 400;
+    font-size: 10px;
+    padding: 5%;
+    margin-top: 0;
+    color: #4D4D4D;
+}
+
+
+
+
+

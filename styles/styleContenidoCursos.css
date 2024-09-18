@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  #lista__lecciones {
+    width: 25%;
+    height: 95vh;
+    background: linear-gradient(to bottom, #1f1f1e 15%, #121212 1%);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: rgba(105, 105, 109, 0.146) 10px 6px 12px 1px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+.lista__lecciones__botones {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    padding-left: 10%;
+    width: 100%;
+    height: 7%;
+    position: relative;
+    top: 5%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.boton__regresar {
+    background-color: #121212;
+    width: 40px;
+    height: 40px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin: 10% 0;
+}
+
+.boton__regresar:hover {
+    background-color: #1f1f1e;
+    outline: #121212 3px solid;
+}
+
+.imagen__boton__regresar {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.lista__lecciones__botones:hover {
+    background-color:#262626;
+    
+}
+
+.titulo-lecciones {
+    font-family: "Sora", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #ECAE3C;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    margin: 10%;
+}
+
+.texto-lecciones {
+    color: rgb(145, 135, 135);
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    position: relative;
+    top: 4%;
+    padding-left: 9%;
+    display: flex;
+    align-items: center;
+    gap: 8%;
+}
+
+.lista__lecciones__botones__numero {
+    font-size: 10px;
+    color: #918787;
+}
+
+.iconos {
+    width: 6%;
+}
+
+.icono-lecciones {
+    width: 9%;
+}
+
+.icono-curso {
+    width: 15%;
+}
+
+#lecciones-contenido {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+#lecciones-contenido  {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 17%;
+    background-color: #121212;
+    border-radius: 32px;
+    width: 69%;
+    height: 80.5%;
+    position: absolute;
+    left: 28%;
+    box-shadow: rgba(105, 105, 109, 0.146) 5px 6px 12px 1px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#lecciones-contenido h3  {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: -17%;
+    left: 1%;
+}
+
+#lecciones-contenido p {
+    font-size: 15px;
+    margin: 4% 4% 0% 4%;
+    font-weight: 200;
+    
+}

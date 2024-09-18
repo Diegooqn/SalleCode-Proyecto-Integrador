@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Básico - Python</title>
+    <link rel="stylesheet" href="../styles/styleContenidoCursos.css">
+</head>
+<body>
+
+    <div id="curso-contenido">
+        <div id="lista__lecciones">       
+            <!-- Botones solo para las lecciones del curso de JavaScript -->
+            <a href="../cursos.html" class="boton__regresar"> <img class="imagen__boton__regresar" src="../assets/flechaVolver.png" alt="flecha señalando a la izquierda"></a>
+            <h1 class="titulo-lecciones"> <img class="icono-curso" src="../assets/iconoPython.png" alt="">Curso de Python</h1>
+            <p id="textoLecciones" class="texto-lecciones"> <img class="icono-lecciones" src="../assets/iconoLecciones.png"> LECCIONES</p>
+
+            <button  class="lista__lecciones__botones" onclick="cargarLeccion('py', 1)"><img class="iconos" src="../assets/iconoIntroduccion.png" alt="icono introduccion"> <span class="lista__lecciones__botones__numero">01</span> Introducción</button>
+            <button class="lista__lecciones__botones" onclick="cargarLeccion('py', 2)"> <img class="iconos" src="../assets/iconoContenido.png" alt="icono contenido"> <span class="lista__lecciones__botones__numero">02</span> Lección 1</button>
+            <button class="lista__lecciones__botones" onclick="cargarLeccion('py', 3)"> <img class="iconos" src="../assets/../assets/iconoContenido.png" alt="icono contenido"> <span class="lista__lecciones__botones__numero">03</span> Lección 2</button>
+            <button class="lista__lecciones__botones" onclick="cargarLeccion('py', 4)"> <img class="iconos" src="../assets/../assets/iconoContenido.png" alt="icono contenido"> <span class="lista__lecciones__botones__numero">04</span> Lección 3</button>
+            <button class="lista__lecciones__botones" onclick="cargarLeccion('py', 5)"> <img class="iconos" src="../assets/iconoDesafio.png" alt="icono desafio"> <span class="lista__lecciones__botones__numero">05</span> Lección 4</button> 
+            <button class="lista__lecciones__botones" onclick="cargarLeccion('py', 6)"> <img class="iconos" src="../assets/../assets/iconoContenido.png"" alt="icono desafio"> <span class="lista__lecciones__botones__numero">06</span> Lección 5</button>
+            <button class="lista__lecciones__botones" onclick="cargarLeccion('py', 7)"> <img class="iconos" src="../assets/../assets/iconoContenido.png"" alt="icono desafio"> <span class="lista__lecciones__botones__numero">07</span> Proyecto Final</button>
+        </div>
+        
+        <div id="lecciones-contenido">
+            <!-- Aquí se cargará el contenido de la lección -->
+        </div>
+    </div>
+
+    <script src="../script.js"></script> <!-- Archivo JS -->
+</body>
+</html>
